@@ -1,0 +1,6 @@
+framework module Pods_PlayLog {
+  umbrella header "Pods-PlayLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D8734B6225055A400366714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734B5225055A400366714 /* AppDelegate.swift */; };
+		8D8734BB225055A400366714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8734B9225055A400366714 /* Main.storyboard */; };
+		8D8734BD225055A500366714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8734BC225055A500366714 /* Assets.xcassets */; };
+		8D8734C0225055A500366714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8734BE225055A500366714 /* LaunchScreen.storyboard */; };
+		8D8734CB225055A500366714 /* PlayLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734CA225055A500366714 /* PlayLogTests.swift */; };
+		8D8734D6225055A500366714 /* PlayLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734D5225055A500366714 /* PlayLogUITests.swift */; };
+		8D8734E42250566A00366714 /* PlayLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734E32250566A00366714 /* PlayLogViewController.swift */; };
+		8D8734E52250566A00366714 /* PlayLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734E32250566A00366714 /* PlayLogViewController.swift */; };
+		8D8734E62250566A00366714 /* PlayLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734E32250566A00366714 /* PlayLogViewController.swift */; };
+		8D8734E92250583B00366714 /* RotatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734E82250583B00366714 /* RotatingButton.swift */; };
+		8D8734EA2250583B00366714 /* RotatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734E82250583B00366714 /* RotatingButton.swift */; };
+		8D8734EB2250583B00366714 /* RotatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734E82250583B00366714 /* RotatingButton.swift */; };
+		8D8734F52251BC8E00366714 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734F42251BC8E00366714 /* RotationGestureRecognizer.swift */; };
+		8D8734F62251BC8E00366714 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734F42251BC8E00366714 /* RotationGestureRecognizer.swift */; };
+		8D8734F72251BC8E00366714 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734F42251BC8E00366714 /* RotationGestureRecognizer.swift */; };
+		8D8734F92251BCCB00366714 /* RotatingButtonRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734F82251BCCB00366714 /* RotatingButtonRenderer.swift */; };
+		8D8734FA2251BCCB00366714 /* RotatingButtonRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734F82251BCCB00366714 /* RotatingButtonRenderer.swift */; };
+		8D8734FB2251BCCB00366714 /* RotatingButtonRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734F82251BCCB00366714 /* RotatingButtonRenderer.swift */; };
+		8D8734FE2251C61100366714 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734FD2251C61100366714 /* CollectionViewCell.swift */; };
+		8D8734FF2251C61100366714 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734FD2251C61100366714 /* CollectionViewCell.swift */; };
+		8D8735002251C61100366714 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8734FD2251C61100366714 /* CollectionViewCell.swift */; };
+		8D87350422523F2100366714 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87350322523F2100366714 /* Extensions.swift */; };
+		8D87350522523F2100366714 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87350322523F2100366714 /* Extensions.swift */; };
+		8D87350622523F2100366714 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87350322523F2100366714 /* Extensions.swift */; };
+		B763516A5B18C9A1B085623C /* Pods_PlayLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5393C78A62C9416B3F438680 /* Pods_PlayLogTests.framework */; };
+		C12178B1620201931B33C125 /* Pods_PlayLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A2FE35740559CBD3E50832 /* Pods_PlayLogUITests.framework */; };
+		DEA29BF6D4724EC1247A5008 /* Pods_PlayLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F10DCBFFD6A61B82275ED4 /* Pods_PlayLog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D8734C7225055A500366714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8734AA225055A400366714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D8734B1225055A400366714;
+			remoteInfo = PlayLog;
+		};
+		8D8734D2225055A500366714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8734AA225055A400366714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D8734B1225055A400366714;
+			remoteInfo = PlayLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D972C5F093B95BAE27348C /* Pods-PlayLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayLogTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayLogTests/Pods-PlayLogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4025A16A4495B697BAFD6FF6 /* Pods-PlayLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayLog.release.xcconfig"; path = "Target Support Files/Pods-PlayLog/Pods-PlayLog.release.xcconfig"; sourceTree = "<group>"; };
+		4113585A7A3D222D359A8D6C /* Pods-PlayLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayLog.debug.xcconfig"; path = "Target Support Files/Pods-PlayLog/Pods-PlayLog.debug.xcconfig"; sourceTree = "<group>"; };
+		50A2FE35740559CBD3E50832 /* Pods_PlayLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5393C78A62C9416B3F438680 /* Pods_PlayLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F7FF3060D7B42861990C48 /* Pods-PlayLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayLogUITests.release.xcconfig"; path = "Target Support Files/Pods-PlayLogUITests/Pods-PlayLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75F10DCBFFD6A61B82275ED4 /* Pods_PlayLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7942A79691F5301E8B9EA89B /* Pods-PlayLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayLogUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlayLogUITests/Pods-PlayLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D8734B2225055A400366714 /* PlayLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8734B5225055A400366714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D8734BA225055A400366714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D8734BC225055A500366714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D8734BF225055A500366714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D8734C1225055A500366714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8734C6225055A500366714 /* PlayLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8734CA225055A500366714 /* PlayLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLogTests.swift; sourceTree = "<group>"; };
+		8D8734CC225055A500366714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8734D1225055A500366714 /* PlayLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8734D5225055A500366714 /* PlayLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLogUITests.swift; sourceTree = "<group>"; };
+		8D8734D7225055A500366714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8734E32250566A00366714 /* PlayLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLogViewController.swift; sourceTree = "<group>"; };
+		8D8734E82250583B00366714 /* RotatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingButton.swift; sourceTree = "<group>"; };
+		8D8734F42251BC8E00366714 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		8D8734F82251BCCB00366714 /* RotatingButtonRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingButtonRenderer.swift; sourceTree = "<group>"; };
+		8D8734FD2251C61100366714 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8D87350322523F2100366714 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D0767FFD179C3DAED22A3AA0 /* Pods-PlayLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayLogTests.release.xcconfig"; path = "Target Support Files/Pods-PlayLogTests/Pods-PlayLogTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8734AF225055A400366714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA29BF6D4724EC1247A5008 /* Pods_PlayLog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8734C3225055A500366714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B763516A5B18C9A1B085623C /* Pods_PlayLogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8734CE225055A500366714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12178B1620201931B33C125 /* Pods_PlayLogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C05C6ABAD5320538309ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4113585A7A3D222D359A8D6C /* Pods-PlayLog.debug.xcconfig */,
+				4025A16A4495B697BAFD6FF6 /* Pods-PlayLog.release.xcconfig */,
+				11D972C5F093B95BAE27348C /* Pods-PlayLogTests.debug.xcconfig */,
+				D0767FFD179C3DAED22A3AA0 /* Pods-PlayLogTests.release.xcconfig */,
+				7942A79691F5301E8B9EA89B /* Pods-PlayLogUITests.debug.xcconfig */,
+				70F7FF3060D7B42861990C48 /* Pods-PlayLogUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D8734A9225055A400366714 = {
+			isa = PBXGroup;
+			children = (
+				8D8734B4225055A400366714 /* PlayLog */,
+				8D8734C9225055A500366714 /* PlayLogTests */,
+				8D8734D4225055A500366714 /* PlayLogUITests */,
+				8D8734B3225055A400366714 /* Products */,
+				11C05C6ABAD5320538309ADA /* Pods */,
+				9913EEF10F540F9C35580140 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8734B3225055A400366714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734B2225055A400366714 /* PlayLog.app */,
+				8D8734C6225055A500366714 /* PlayLogTests.xctest */,
+				8D8734D1225055A500366714 /* PlayLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8734B4225055A400366714 /* PlayLog */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734B5225055A400366714 /* AppDelegate.swift */,
+				8D87350722528F2500366714 /* PlayLogViewController */,
+				8D87350222523F1100366714 /* Extensions */,
+				8D8734E72250580B00366714 /* CustomKnob */,
+				8D8734FC2251C5FE00366714 /* CollectionViewCell */,
+				8D8734BC225055A500366714 /* Assets.xcassets */,
+				8D8734BE225055A500366714 /* LaunchScreen.storyboard */,
+				8D8734B9225055A400366714 /* Main.storyboard */,
+				8D8734C1225055A500366714 /* Info.plist */,
+			);
+			path = PlayLog;
+			sourceTree = "<group>";
+		};
+		8D8734C9225055A500366714 /* PlayLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734CA225055A500366714 /* PlayLogTests.swift */,
+				8D8734CC225055A500366714 /* Info.plist */,
+			);
+			path = PlayLogTests;
+			sourceTree = "<group>";
+		};
+		8D8734D4225055A500366714 /* PlayLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734D5225055A500366714 /* PlayLogUITests.swift */,
+				8D8734D7225055A500366714 /* Info.plist */,
+			);
+			path = PlayLogUITests;
+			sourceTree = "<group>";
+		};
+		8D8734E72250580B00366714 /* CustomKnob */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734E82250583B00366714 /* RotatingButton.swift */,
+				8D8734F42251BC8E00366714 /* RotationGestureRecognizer.swift */,
+				8D8734F82251BCCB00366714 /* RotatingButtonRenderer.swift */,
+			);
+			path = CustomKnob;
+			sourceTree = "<group>";
+		};
+		8D8734FC2251C5FE00366714 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734FD2251C61100366714 /* CollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8D87350222523F1100366714 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D87350322523F2100366714 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D87350722528F2500366714 /* PlayLogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D8734E32250566A00366714 /* PlayLogViewController.swift */,
+			);
+			path = PlayLogViewController;
+			sourceTree = "<group>";
+		};
+		9913EEF10F540F9C35580140 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75F10DCBFFD6A61B82275ED4 /* Pods_PlayLog.framework */,
+				5393C78A62C9416B3F438680 /* Pods_PlayLogTests.framework */,
+				50A2FE35740559CBD3E50832 /* Pods_PlayLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D8734B1225055A400366714 /* PlayLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8734DA225055A500366714 /* Build configuration list for PBXNativeTarget "PlayLog" */;
+			buildPhases = (
+				25F28E5886BEB3CE09056836 /* [CP] Check Pods Manifest.lock */,
+				8D8734AE225055A400366714 /* Sources */,
+				8D8734AF225055A400366714 /* Frameworks */,
+				8D8734B0225055A400366714 /* Resources */,
+				CED1398624D1EC018999FA0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayLog;
+			productName = PlayLog;
+			productReference = 8D8734B2225055A400366714 /* PlayLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D8734C5225055A500366714 /* PlayLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8734DD225055A500366714 /* Build configuration list for PBXNativeTarget "PlayLogTests" */;
+			buildPhases = (
+				12DE519F40E2553A1F17F94D /* [CP] Check Pods Manifest.lock */,
+				8D8734C2225055A500366714 /* Sources */,
+				8D8734C3225055A500366714 /* Frameworks */,
+				8D8734C4225055A500366714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8734C8225055A500366714 /* PBXTargetDependency */,
+			);
+			name = PlayLogTests;
+			productName = PlayLogTests;
+			productReference = 8D8734C6225055A500366714 /* PlayLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D8734D0225055A500366714 /* PlayLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8734E0225055A500366714 /* Build configuration list for PBXNativeTarget "PlayLogUITests" */;
+			buildPhases = (
+				29C3EB17F770CBDE3D05F690 /* [CP] Check Pods Manifest.lock */,
+				8D8734CD225055A500366714 /* Sources */,
+				8D8734CE225055A500366714 /* Frameworks */,
+				8D8734CF225055A500366714 /* Resources */,
+				4EBDB85A01738414B1D019C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8734D3225055A500366714 /* PBXTargetDependency */,
+			);
+			name = PlayLogUITests;
+			productName = PlayLogUITests;
+			productReference = 8D8734D1225055A500366714 /* PlayLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8734AA225055A400366714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Prasanth pc";
+				TargetAttributes = {
+					8D8734B1225055A400366714 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8D8734C5225055A500366714 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8D8734B1225055A400366714;
+					};
+					8D8734D0225055A500366714 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8D8734B1225055A400366714;
+					};
+				};
+			};
+			buildConfigurationList = 8D8734AD225055A400366714 /* Build configuration list for PBXProject "PlayLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D8734A9225055A400366714;
+			productRefGroup = 8D8734B3225055A400366714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D8734B1225055A400366714 /* PlayLog */,
+				8D8734C5225055A500366714 /* PlayLogTests */,
+				8D8734D0225055A500366714 /* PlayLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D8734B0225055A400366714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8734C0225055A500366714 /* LaunchScreen.storyboard in Resources */,
+				8D8734BD225055A500366714 /* Assets.xcassets in Resources */,
+				8D8734BB225055A400366714 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8734C4225055A500366714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8734CF225055A500366714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DE519F40E2553A1F17F94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayLogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F28E5886BEB3CE09056836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C3EB17F770CBDE3D05F690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayLogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBDB85A01738414B1D019C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayLogUITests/Pods-PlayLogUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OpalImagePicker/OpalImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpalImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayLogUITests/Pods-PlayLogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED1398624D1EC018999FA0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayLog/Pods-PlayLog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OpalImagePicker/OpalImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpalImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayLog/Pods-PlayLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D8734AE225055A400366714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8734B6225055A400366714 /* AppDelegate.swift in Sources */,
+				8D8734E92250583B00366714 /* RotatingButton.swift in Sources */,
+				8D8734FE2251C61100366714 /* CollectionViewCell.swift in Sources */,
+				8D8734E42250566A00366714 /* PlayLogViewController.swift in Sources */,
+				8D8734F92251BCCB00366714 /* RotatingButtonRenderer.swift in Sources */,
+				8D8734F52251BC8E00366714 /* RotationGestureRecognizer.swift in Sources */,
+				8D87350422523F2100366714 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8734C2225055A500366714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8734CB225055A500366714 /* PlayLogTests.swift in Sources */,
+				8D8734EA2250583B00366714 /* RotatingButton.swift in Sources */,
+				8D8734FF2251C61100366714 /* CollectionViewCell.swift in Sources */,
+				8D8734E52250566A00366714 /* PlayLogViewController.swift in Sources */,
+				8D8734FA2251BCCB00366714 /* RotatingButtonRenderer.swift in Sources */,
+				8D8734F62251BC8E00366714 /* RotationGestureRecognizer.swift in Sources */,
+				8D87350522523F2100366714 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8734CD225055A500366714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8734D6225055A500366714 /* PlayLogUITests.swift in Sources */,
+				8D8734EB2250583B00366714 /* RotatingButton.swift in Sources */,
+				8D8735002251C61100366714 /* CollectionViewCell.swift in Sources */,
+				8D8734E62250566A00366714 /* PlayLogViewController.swift in Sources */,
+				8D8734FB2251BCCB00366714 /* RotatingButtonRenderer.swift in Sources */,
+				8D8734F72251BC8E00366714 /* RotationGestureRecognizer.swift in Sources */,
+				8D87350622523F2100366714 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D8734C8225055A500366714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D8734B1225055A400366714 /* PlayLog */;
+			targetProxy = 8D8734C7225055A500366714 /* PBXContainerItemProxy */;
+		};
+		8D8734D3225055A500366714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D8734B1225055A400366714 /* PlayLog */;
+			targetProxy = 8D8734D2225055A500366714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D8734B9225055A400366714 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8734BA225055A400366714 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D8734BE225055A500366714 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8734BF225055A500366714 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D8734D8225055A500366714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D8734D9225055A500366714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D8734DB225055A500366714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4113585A7A3D222D359A8D6C /* Pods-PlayLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pc.PlayLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D8734DC225055A500366714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4025A16A4495B697BAFD6FF6 /* Pods-PlayLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pc.PlayLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D8734DE225055A500366714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D972C5F093B95BAE27348C /* Pods-PlayLogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pc.PlayLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayLog.app/PlayLog";
+			};
+			name = Debug;
+		};
+		8D8734DF225055A500366714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0767FFD179C3DAED22A3AA0 /* Pods-PlayLogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pc.PlayLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayLog.app/PlayLog";
+			};
+			name = Release;
+		};
+		8D8734E1225055A500366714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7942A79691F5301E8B9EA89B /* Pods-PlayLogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pc.PlayLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayLog;
+			};
+			name = Debug;
+		};
+		8D8734E2225055A500366714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F7FF3060D7B42861990C48 /* Pods-PlayLogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pc.PlayLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D8734AD225055A400366714 /* Build configuration list for PBXProject "PlayLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8734D8225055A500366714 /* Debug */,
+				8D8734D9225055A500366714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8734DA225055A500366714 /* Build configuration list for PBXNativeTarget "PlayLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8734DB225055A500366714 /* Debug */,
+				8D8734DC225055A500366714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8734DD225055A500366714 /* Build configuration list for PBXNativeTarget "PlayLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8734DE225055A500366714 /* Debug */,
+				8D8734DF225055A500366714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8734E0225055A500366714 /* Build configuration list for PBXNativeTarget "PlayLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8734E1225055A500366714 /* Debug */,
+				8D8734E2225055A500366714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D8734AA225055A400366714 /* Project object */;
+}

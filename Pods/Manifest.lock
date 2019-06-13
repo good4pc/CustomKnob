@@ -1,0 +1,16 @@
+PODS:
+  - OpalImagePicker (2.0.0)
+
+DEPENDENCIES:
+  - OpalImagePicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OpalImagePicker
+
+SPEC CHECKSUMS:
+  OpalImagePicker: efc91612ef5b3849314801f68fddc26200da9435
+
+PODFILE CHECKSUM: c874463a9c8b9a524567f69b28ac2e2d843bac2f
+
+COCOAPODS: 1.6.1
